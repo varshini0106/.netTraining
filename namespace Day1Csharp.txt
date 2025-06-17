@@ -15,9 +15,13 @@ namespace Day1Csharp
 		grade = Convert.ToChar(Console.ReadLine());
 		switch(grade){
 			case 'O' : Console.WriteLine("Outstanding");
+				break;
 			case 'A' : Console.WriteLine("Excellent");
+				break;
 			case 'B' : Console.WriteLine("Very Good");
+				break;
 			case 'C' : Console.WriteLine("Fair");
+				break;
 			}
 	}
 }

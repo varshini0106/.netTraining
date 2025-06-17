@@ -1,0 +1,23 @@
+namespace Day1Csharp
+{
+	class ControlStatements
+	{
+		static void Main()
+		{
+			ControlStatements cs = new ControlStatements();
+			cs.CheckGrade;
+			Console.Read();
+		}
+	public void CheckGrade()
+	{
+		char grade;
+		Console.WriteLine("Eneter your grade:");
+		grade = Convert.ToChar(Console.ReadLine());
+		switch(grade){
+			case 'O' : Console.WriteLine("Outstanding");
+			case 'A' : Console.WriteLine("Excellent");
+			case 'B' : Console.WriteLine("Very Good");
+			case 'C' : Console.WriteLine("Fair");
+			}
+	}
+}

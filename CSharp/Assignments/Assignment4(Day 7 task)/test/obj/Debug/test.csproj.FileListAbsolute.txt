@@ -1,7 +1,0 @@
-C:\dotnetTraining\self\test\test\bin\Debug\test.exe.config
-C:\dotnetTraining\self\test\test\bin\Debug\test.exe
-C:\dotnetTraining\self\test\test\bin\Debug\test.pdb
-C:\dotnetTraining\self\test\test\obj\Debug\test.csproj.AssemblyReference.cache
-C:\dotnetTraining\self\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
-C:\dotnetTraining\self\test\test\obj\Debug\test.exe
-C:\dotnetTraining\self\test\test\obj\Debug\test.pdb

@@ -14,16 +14,16 @@ namespace Code_Challenge_2
 {
     abstract public class Student
     {
-        public string Name;
+        public string name;
         public string StudentId;
         public Single grade;
-        abstract public Boolean IsPassed(Single grade);
+        abstract public Boolean Ispassed(Single grade);
     }
     class Undergraduate : Student
     {
-        override public Boolean IsPassed(Single grade)
+        override public Boolean Ispassed(Single grade)
         {
-            if (grade > 70.0f)
+            if (grade >= 70.0f)
                 return true;
             else
                 return false;
@@ -31,9 +31,9 @@ namespace Code_Challenge_2
     }
     class Graduate : Student
     {
-        override public Boolean IsPassed(Single grade)
+        override public Boolean Ispassed(Single grade)
         {
-            if (grade > 80.0f)
+            if (grade >= 80.0f)
                 return true;
             else
                 return false;
@@ -45,17 +45,32 @@ namespace Code_Challenge_2
         {
             Undergraduate ug = new Undergraduate();
             Graduate g = new Graduate();
-            Console.WriteLine("Enter Student Name: ");
-            ug.Name = Console.ReadLine();
-            Console.WriteLine("Enter Student ID :");
+            Console.WriteLine("Enter student name");
+            ug.name = Console.ReadLine();
+            Console.WriteLine("Enter studentid");
             ug.StudentId = Console.ReadLine();
-            Console.WriteLine("Enter grade marks for Under graduate: ");
-            ug.grade = Convert.ToSingle(Console.ReadLine());
-            Console.WriteLine(ug.IsPassed(ug.grade));
-            Console.WriteLine("Enter grade marks for graduate: ");
-            Console.WriteLine(g.IsPassed(g.grade));
-            bool b = ug.IsPassed(ug.grade);
-            Console.Read();
+            char ch;
+            Console.WriteLine("Enter a character G or UG (graduate or Under graduate) G for Grduate ,U for undergrduate");
+            ch = Convert.ToChar(Console.ReadLine());
+            if (ch == 'G')
+            {
+                Console.WriteLine("Enter grade marks for Graduate");
+                ug.grade = Convert.ToSingle(Console.ReadLine());
+                bool a = ug.Ispassed(ug.grade);
+                Console.WriteLine(ug.Ispassed(ug.grade));
+                Console.WriteLine("Student {0} has passed: {1}", ug.name, a);
+            }
+            if (ch == 'U')
+            {
+                Console.WriteLine("Enter grade marks for under graduate");
+                bool b = ug.Ispassed(ug.grade);
+                g.grade = Convert.ToSingle(Console.ReadLine());
+                Console.WriteLine(g.Ispassed(g.grade));
+                Console.WriteLine("Student {0} has passed: {1}", ug.name, b);
+            }
+            //ug.display(ug.name, ug.StudentId, ug.grade, g.grade,a,b);
+            Console.ReadLine();
+
         }
     }
 }

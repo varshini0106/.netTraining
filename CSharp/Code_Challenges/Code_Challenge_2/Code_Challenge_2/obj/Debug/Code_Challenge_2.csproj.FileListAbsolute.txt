@@ -1,0 +1,7 @@
+C:\dotnetTraining\Classwork\CSharp\Code_Challenges\Code_Challenge_2\Code_Challenge_2\obj\Debug\Code_Challenge_2.csproj.AssemblyReference.cache
+C:\dotnetTraining\Classwork\CSharp\Code_Challenges\Code_Challenge_2\Code_Challenge_2\obj\Debug\Code_Challenge_2.csproj.CoreCompileInputs.cache
+C:\dotnetTraining\Classwork\CSharp\Code_Challenges\Code_Challenge_2\Code_Challenge_2\bin\Debug\Code_Challenge_2.exe.config
+C:\dotnetTraining\Classwork\CSharp\Code_Challenges\Code_Challenge_2\Code_Challenge_2\bin\Debug\Code_Challenge_2.exe
+C:\dotnetTraining\Classwork\CSharp\Code_Challenges\Code_Challenge_2\Code_Challenge_2\bin\Debug\Code_Challenge_2.pdb
+C:\dotnetTraining\Classwork\CSharp\Code_Challenges\Code_Challenge_2\Code_Challenge_2\obj\Debug\Code_Challenge_2.exe
+C:\dotnetTraining\Classwork\CSharp\Code_Challenges\Code_Challenge_2\Code_Challenge_2\obj\Debug\Code_Challenge_2.pdb

@@ -1,7 +1,0 @@
-C:\dotnetTraining\Classwork\CSharp\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe.config
-C:\dotnetTraining\Classwork\CSharp\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe
-C:\dotnetTraining\Classwork\CSharp\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.pdb
-C:\dotnetTraining\Classwork\CSharp\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.AssemblyReference.cache
-C:\dotnetTraining\Classwork\CSharp\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.CoreCompileInputs.cache
-C:\dotnetTraining\Classwork\CSharp\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.exe
-C:\dotnetTraining\Classwork\CSharp\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.pdb

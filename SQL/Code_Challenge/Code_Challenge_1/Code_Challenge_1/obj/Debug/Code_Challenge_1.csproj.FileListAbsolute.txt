@@ -1,0 +1,7 @@
+C:\dotnetTraining\Classwork\SQL\Code_Challenge\Code_Challenge_1\Code_Challenge_1\bin\Debug\Code_Challenge_1.exe.config
+C:\dotnetTraining\Classwork\SQL\Code_Challenge\Code_Challenge_1\Code_Challenge_1\bin\Debug\Code_Challenge_1.exe
+C:\dotnetTraining\Classwork\SQL\Code_Challenge\Code_Challenge_1\Code_Challenge_1\bin\Debug\Code_Challenge_1.pdb
+C:\dotnetTraining\Classwork\SQL\Code_Challenge\Code_Challenge_1\Code_Challenge_1\obj\Debug\Code_Challenge_1.csproj.AssemblyReference.cache
+C:\dotnetTraining\Classwork\SQL\Code_Challenge\Code_Challenge_1\Code_Challenge_1\obj\Debug\Code_Challenge_1.csproj.CoreCompileInputs.cache
+C:\dotnetTraining\Classwork\SQL\Code_Challenge\Code_Challenge_1\Code_Challenge_1\obj\Debug\Code_Challenge_1.exe
+C:\dotnetTraining\Classwork\SQL\Code_Challenge\Code_Challenge_1\Code_Challenge_1\obj\Debug\Code_Challenge_1.pdb

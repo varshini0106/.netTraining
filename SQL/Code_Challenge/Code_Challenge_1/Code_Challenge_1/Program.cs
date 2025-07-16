@@ -50,7 +50,7 @@ namespace Code_Challenge_1
                     LastName = lname,
                     Title = title,
                     DOB = dob,
-                    DOJ = dob,
+                    DOJ = doj,
                     City = city
                 });
             }

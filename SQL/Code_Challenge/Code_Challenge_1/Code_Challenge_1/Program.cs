@@ -55,31 +55,36 @@ namespace Code_Challenge_1
                 });
             }
             //a. Details of all employees
-            DisplayEmployees(emplist);
+            show(emplist);
 
             //b.Display details of all employees whose location is not mumbai
             Console.WriteLine("List of people not in Mumbai");
             var emplist2 = (from e in emplist
                             where e.City != "Mumbai"
                             select e).ToList();
-            DisplayEmployees(emplist2);
+            show(emplist2);
 
             //c.Display details of all the employee whose title is AsstManager
             Console.WriteLine("List of people whose title is asstmanager");
             var emplist3 = (from e in emplist
                             where e.Title == "AsstManager"
                             select e).ToList();
-            DisplayEmployees(emplist3);
+            show(emplist3);
+
+
+            //d.Display details of all the employee whose Last Name start with S
+            var emplist4 = emplist.Where(e => e.LastName.StartsWith("S")).ToList();
+            show(emplist4);
 
             Console.Read();
         }
 
 
-        static void DisplayEmployees(List<Employee> employees)
+        static void show(List<Employee> employeelist)
         {
-            foreach (var e in employees)
+            foreach (var e in employeelist)
             {
-                Console.WriteLine($"{e.EmployeeID} | {e.FirstName} {e.LastName} | {e.Title} | DOB: {e.DOB} | DOJ: {e.DOJ} | City: {e.City}");
+                Console.WriteLine($"{e.EmployeeID}, {e.FirstName} {e.LastName}, {e.Title}, DOB: {e.DOB}, DOJ: {e.DOJ}, City: {e.City}");
             }
         }
 

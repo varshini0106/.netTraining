@@ -83,8 +83,7 @@ dbo.fn_calculateBonus(deptno, salary) 'Bonus' from emp
 --6. Create a procedure to update the salary of employee by 500 whose dept name is Sales and current salary is below 1500 (use emp table)
 create or alter proc sp_sales_salary_update 
 as begin 
-	update emp set salary = salary + 500 where deptno = 
-									(select deptno from dept where dname = 'SALES') and salary < 1500
+	update emp set salary = salary + 500 where deptno = (select deptno from dept where dname = 'SALES') and salary < 1500
 end
  
 exec sp_sales_salary_update

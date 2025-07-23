@@ -42,7 +42,7 @@ print 'Gross salary is: ' + ' ' + cast(@Gross_salary as varchar(max))
 print 'Net salary is: ' + ' ' + cast(@Net_Salary as varchar(max))
 end
  
-execute payslip @empid=7566
+execute payslip @empid = 7839
 
 
 --2.  Create a trigger to restrict data manipulation on EMP table during General holidays. 

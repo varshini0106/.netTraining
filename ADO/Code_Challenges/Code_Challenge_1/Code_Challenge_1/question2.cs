@@ -1,4 +1,8 @@
-﻿using System;
+﻿//2.Write a procedure that takes empid as input and outputs the updated salary as current salary + 100 for the give employee.
+ 
+//  Test the procedure using ADO classes and display the Employee details of that employee whose salary has been updated
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

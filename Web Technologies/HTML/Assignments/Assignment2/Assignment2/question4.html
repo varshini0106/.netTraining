@@ -1,0 +1,44 @@
+﻿<!--4. How to make use of animation-delay , and then restart again-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Animation-Delay</title>
+    <style>
+        div{
+            animation-name: test;
+            animation-duration: 10000ms;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-delay: 6s;
+        }
+        @keyframes test{
+            0%{
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                left: 850px;
+                top: 0px;
+            }
+            50%{
+                left: 850px;
+                top: 250px;
+            }
+            75%{
+                left: 0px;
+                top: 250px;
+            }
+            100%{
+                left: 200px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div><img src="images\snail.jpg" /></div>
+</body>
+</html>

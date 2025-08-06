@@ -1,0 +1,38 @@
+﻿<!--7. Write a jQuery Code to add a tag at the beginning of the list item, containing the index of the list item Sample:
+
+<body>
+
+    <ui>
+
+        <li>CSHARP</li>
+
+        <li>SQL</li>
+
+        <li>ADO</li>
+
+</body>-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Question7</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script>
+    $(document).ready(function () {
+            $("ul li").each(function (i) {
+                $(this).prepend(i + " ");
+            });
+        });</script>
+</head>
+<body>
+    <h2>Index</h2>
+    <ul>
+        <li>Books</li>
+        <li>Pencils</li>
+        <li>Pens</li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿<!--8. Append a <p>
+    element with a text message when an <input> field is changed.-->
+
+    <!DOCTYPE html>
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Input Change Message</title>
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+        <script src="https://googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <div id="msg"></div>
+
+        <label>Enter some Data:</label>
+        <input type="text" id="input" value="before" />
+
+        <script>
+    $("#input").on("change", function () {
+                $("#msg").html("<p>Change happened!</p>");
+            });</script>
+
+        <button>Click after changing text</button>
+    </body>
+</html>

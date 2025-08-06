@@ -1,0 +1,34 @@
+﻿<!--6. Write a jQuery Code to get a single element from a selection.
+Sample:
+<body>
+<ui>
+<li>CSHARP</li>-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Get a single element from a selection</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+    <script src="https://googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li>CSHARP</li>
+        <li>JAVASCRIPT</li>
+        <li>PYTHON</li>
+        <li>JAVA</li>
+    </ul>
+
+    <button id="getItem">Get Item at Index 2</button>
+
+    <script>
+        $("#getItem").click(function () {
+            let item = $("ul li").get(2); //python
+            alert("Selected item: " + item.textContent);
+        });
+    </script>
+
+</body>
+</html>

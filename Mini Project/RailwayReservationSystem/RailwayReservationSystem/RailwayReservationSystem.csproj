@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{142B5A6B-A7E7-44BC-A01B-4E88117483CF}</ProjectGuid>
+    <ProjectGuid>{B35FC09A-20B3-4265-9348-C08E20935633}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Code_Challenge_7</RootNamespace>
-    <AssemblyName>Code_Challenge_7</AssemblyName>
+    <RootNamespace>RailwayReservationSystem</RootNamespace>
+    <AssemblyName>RailwayReservationSystem</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataEntities\Cancellation.cs" />
+    <Compile Include="DataEntities\Customer.cs" />
+    <Compile Include="DataEntities\Reservation.cs" />
+    <Compile Include="DataEntities\Train.cs" />
+    <Compile Include="DbConnection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AdminService.cs" />
+    <Compile Include="Services\BookingService.cs" />
+    <Compile Include="Services\CancellationService.cs" />
+    <Compile Include="Services\LoginService.cs" />
+    <Compile Include="Services\RegisterService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Question1.html" />
-    <Content Include="Question2.html" />
-    <Content Include="Question3.html" />
-    <Content Include="Question4.html" />
-    <Content Include="Question5.html" />
-    <Content Include="Question6.html" />
-    <Content Include="Question7.html" />
-    <Content Include="Question8.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

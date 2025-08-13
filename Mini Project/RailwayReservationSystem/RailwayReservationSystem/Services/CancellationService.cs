@@ -53,11 +53,11 @@ namespace RailwayReservationSystem.Services
                     decimal refundPercent;
 
                     if (days <= 30)
-                        refundPercent = 0.60m; // highest refund if cancelled early
+                        refundPercent = 0.20m; // highest refund if cancelled early
                     else if (days <= 60)
                         refundPercent = 0.35m;
                     else if (days <= 90)
-                        refundPercent = 0.20m;
+                        refundPercent = 0.60m;
                     else
                         refundPercent = 0m;
 

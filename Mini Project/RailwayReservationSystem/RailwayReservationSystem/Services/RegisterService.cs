@@ -46,8 +46,10 @@ namespace RailwayReservationSystem.Services
             return true;
         }
 
-        public bool Register(string username)
+        public bool Register()
         {
+            Console.Write("\nEnter username: ");
+            string username = Console.ReadLine().Trim();
             // Check if username already exists
             using (var con = DbConnection.GetConnection())
             {

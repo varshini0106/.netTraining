@@ -130,16 +130,3 @@ BEGIN
         RAISERROR(@err,16,1);
     END CATCH
 END
- 
---trigger to prevent negative seats (safety)
-CREATE TRIGGER trg_TrainSeats_NonNegative
-ON Trains
-AFTER UPDATE
-AS
-BEGIN
-    IF EXISTS(SELECT * FROM inserted i WHERE i.SleeperSeats < 0 OR i.AC2Seats < 0 OR i.AC3Seats < 0)
-    BEGIN
-        RAISERROR('Seat counts cannot be negative',16,1);
-        ROLLBACK TRANSACTION;
-    END
-END

@@ -59,9 +59,7 @@ namespace RailwayReservationSystem
                 }
                 else if (ch == "2")
                 {
-                    Console.Write("\nEnter username: ");
-                    string username = Console.ReadLine().Trim();
-                    if (registerService.Register(username))
+                    if (registerService.Register())
                     {
                         // logged in as new user
                         var loggedCustomerId = registerService.NewCustomer.CustomerId;

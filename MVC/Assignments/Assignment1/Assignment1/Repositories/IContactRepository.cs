@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Assignment1.Models;
-namespace Assignment1.Respositories
+namespace Assignment1.Repositories
 {
     interface IContactRepository
     {

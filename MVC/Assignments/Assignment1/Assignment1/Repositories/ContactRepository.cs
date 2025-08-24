@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Threading.Tasks;
 using Assignment1.Models;
-using Assignment1.Respositories;
 
 namespace Assignment1.Repositories
 {

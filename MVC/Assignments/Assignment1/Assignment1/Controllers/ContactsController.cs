@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using System.Web.Mvc;
 using Assignment1.Models;
 using Assignment1.Repositories;
-using Assignment1.Respositories;
 
 namespace Assignment1.Controllers
 {

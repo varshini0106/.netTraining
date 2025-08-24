@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.36227.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom_Validations_Prj", "Custom_Validations_Prj\Custom_Validations_Prj.csproj", "{786059E1-AE5C-4AB1-94A2-D2536B41AE7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{786059E1-AE5C-4AB1-94A2-D2536B41AE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786059E1-AE5C-4AB1-94A2-D2536B41AE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786059E1-AE5C-4AB1-94A2-D2536B41AE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786059E1-AE5C-4AB1-94A2-D2536B41AE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B353158F-7C2D-4009-9939-DB3754E6D498}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<a href="/Movie/Create">Add New Movie</a>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Director</th>
+        <th>Release Date</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var m in Model)
+    {
+        <tr>
+            <td>@m.Mid</td>
+            <td>@m.Moviename</td>
+            <td>@m.DirectorName</td>
+            <td>@m.DateofRelease.ToShortDateString()</td>
+            <td>
+                <a href="/Movie/Edit/@m.Mid">Edit</a> |
+                <a href="/Movie/Delete/@m.Mid">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

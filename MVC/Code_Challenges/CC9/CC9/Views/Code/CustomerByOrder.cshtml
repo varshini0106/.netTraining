@@ -1,0 +1,29 @@
+﻿@model CC9.Models.Customer
+
+@{
+    ViewBag.Title = "Customer Details for Order ID 10248";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer Details for Order ID: 10248</h2>
+
+@if (Model != null)
+{
+    <div>
+        <p><strong>Customer ID:</strong> @Model.CustomerID</p>
+        <p><strong>Company Name:</strong> @Model.CompanyName</p>
+        <p><strong>Contact Name:</strong> @Model.ContactName</p>
+        <p><strong>Contact Title:</strong> @Model.ContactTitle</p>
+        <p><strong>Address:</strong> @Model.Address</p>
+        <p><strong>City:</strong> @Model.City</p>
+        <p><strong>Region:</strong> @Model.Region</p>
+        <p><strong>Postal Code:</strong> @Model.PostalCode</p>
+        <p><strong>Country:</strong> @Model.Country</p>
+        <p><strong>Phone:</strong> @Model.Phone</p>
+        <p><strong>Fax:</strong> @Model.Fax</p>
+    </div>
+}
+else
+{
+    <p>No customer found for the given Order ID.</p>
+}

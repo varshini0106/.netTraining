@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <label>Movie Name:</label>
+        @Html.TextBoxFor(m => m.Moviename)
+    </div>
+    <div>
+        <label>Director Name:</label>
+        @Html.TextBoxFor(m => m.DirectorName)
+    </div>
+    <div>
+        <label>Date of Release:</label>
+        @Html.TextBoxFor(m => m.DateofRelease, "{0:yyyy-MM-dd}", new { type = "date" })
+    </div>
+    <button type="submit">Save</button>
+}

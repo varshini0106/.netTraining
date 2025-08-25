@@ -8,7 +8,7 @@ namespace CC9.Models
 {
     public class MoviesDbContext : DbContext
     {
-        public MoviesDbContext() : base("MoviesDbConnection") { }
+        public MoviesDbContext() : base("connectstr") { }
 
         public DbSet<Movie> Movies { get; set; }
     }

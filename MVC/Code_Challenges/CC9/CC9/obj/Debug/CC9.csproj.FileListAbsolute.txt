@@ -76,10 +76,9 @@ C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\bin\System.Web.WebPages.
 C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\bin\Newtonsoft.Json.xml
 C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\bin\Antlr3.Runtime.pdb
 C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.Migrations.InitialCreate.resources
+C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.csproj.GenerateResource.cache
 C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.csproj.CoreCompileInputs.cache
 C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.csproj.CopyComplete
 C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.dll
 C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.pdb
-C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.csproj.AssemblyReference.cache
-C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.Migrations.InitialCreate.resources
-C:\dotnetTraining\Classwork\MVC\Code_Challenges\CC9\CC9\obj\Debug\CC9.csproj.GenerateResource.cache
